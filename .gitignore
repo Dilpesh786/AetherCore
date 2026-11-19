@@ -1,0 +1,17 @@
+# Dependencies & build artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
+
+# OS & editor temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
